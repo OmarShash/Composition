@@ -1,0 +1,106 @@
+@import 'sass/helpers/variables';
+$float-left: right;
+$float-right: left;
+$text-right: left;
+$text-left: right;
+/* Start Header */
+.header{
+    .logo{
+        @media #{$minMedium} {
+            float: $float-left;
+            text-align: $text-left;
+        }
+        .the-toggler{
+            right: auto;
+            left: 15px;
+        }
+    }
+    .navbar{
+        @media #{$minMedium} {
+            float: $float-left;
+        }
+        li{
+            float: $float-left;
+            @media #{$maxMobile} {
+                text-align: $text-left;
+            }
+        }
+    }
+}
+/* End Header */
+/* Start Our Services */
+.services{
+    .service-box{
+        @media #{$minMedium} {
+            float: $float-left;
+        }
+    }
+}
+/* End Our Services */
+/* Start Our Players */
+.our-players{
+    .player-box{
+        @media #{$minSmall} {
+            float: $float-left;
+        }
+        @media #{$minMedium} {
+            text-align: $text-left;
+        }
+    }
+}
+/* End Our Players */
+/* Start Lorem Ipsum */
+.lorem-ipsum{
+    @media #{$minSmall} {
+        .lorem-box{
+            float: $float-left;
+        }
+    }
+}
+/* End Lorem Ipsum */
+/* Start Footer */
+.footer{
+    .gallery, .info, .contact{
+        float: $float-left;
+    }
+    .gallery{
+        .img-box{
+            img{
+                @media #{$minSmall} {
+                    float: $float-left;
+                /* End Of Media */
+                }
+            /* End Of Img */
+            }
+            .text{
+                @media #{$minSmall} {
+                    float: $float-left;
+                /* End Of Media */
+                }
+            /* End Of Text */
+            }
+        /* End Of Img Box */
+        }
+    /* End Of Gallery */
+    }
+    .copyright{
+        .text,
+        .author{
+            @media #{$minSmall} {
+                float: $float-left;
+            /* End Of Media */
+            }
+        /* End Of Author & Text */
+        }
+        .author{
+            @media #{$minSmall} {
+                text-align: $text-right;
+            /* End Of Media */
+            }
+        /* End Of Author */
+        }
+    /* End Of CopyRight */
+    }
+/* End Of Footer */
+}
+/* End Footer */

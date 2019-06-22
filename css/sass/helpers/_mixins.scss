@@ -1,0 +1,54 @@
+/*
+*** Overlay Mixin
+*** Overlay Main Properties
+*/
+
+@mixin overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+*** Prefixes Mixin
+*** Auto Add Prefixes To Properties
+*/
+
+@mixin prefixer($prop, $val, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $prop}: $val;
+    }
+    #{$prop}: $val;
+}
+
+/*
+*** Animation Mixin
+*** Auto Add Prefixes To Animation
+*/
+
+@mixin keyFrame($animate-name) {
+    @-webkit-keyframes #{$animate-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animate-name} {
+        @content;
+    }
+    @keyframes #{$animate-name} {
+        @content;
+    }
+}
+
+/*
+*** Transition Mixin
+*** Auto Add Prefixes To Transition
+*/
+
+@mixin transition($args...) { // ... That's Mean All Properties You Are Input 
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -o-transition: $args;
+    -ms-transition: $args;
+    transition: $args;
+}
