@@ -35,7 +35,10 @@ this project will be displayed on desktop, laptop, tablet or mobile phone.
 **JavaScript**
 
 **Jquery**
+
 **SASS**
+
+**Media Query**
 
 # Social Media:  
 
