@@ -44,4 +44,6 @@ this project will be displayed on desktop, laptop, tablet or mobile phone.
 
 Gmail: omarshash284@gmail.com
 
+LinkedIn: https://www.linkedin.com/in/omar-shash-78a42a189?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4B2GvX0DTSORtEN50wKh0g%3D%3D
+
 **Thanks for all**
