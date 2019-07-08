@@ -7,7 +7,7 @@ ________
 
 # Live Previews:
 
-## https://omarshash.github.io/composition/index.html
+## https://omarshash.github.io/Composition/index.html
 
 # Most important features:
 
